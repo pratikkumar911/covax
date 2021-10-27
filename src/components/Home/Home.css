@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.home__intro > h2 {
+  margin-top: 50px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 35px;
+}
+
+.home_selectionHeader {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 15px;
+}
+
+.home_selectionHeader h4 {
+  margin-bottom: 10px;
+  font-family: "Nunito", sans-serif !important;
+}
+
+.home_selectedHeaders {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_selectedHeaders .form-control {
+  min-width: 300px !important;
+  margin-top: 15px;
+}
+
+.districtDateInput {
+  margin-top: 37px !important;
+}
+
+.empty_error {
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #ca5e5e;
+  color: whitesmoke;
+  padding: 10px 10px;
+  font-family: "Nunito", sans-serif !important;
+}
+
+.home_selectedPin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.home_selectedPin .home_selectedpincontainer .textField {
+  width: 500px;
+}
+
+.home_selectedPin .input {
+  width: 330px;
+  margin-bottom: -10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .home__intro > h2 {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+
+  .home_selectedHeaders {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .districtDateInput {
+    margin-top: 20px !important;
+  }
+
+  .home_selectedHeaders .form-control {
+    min-width: 270px !important;
+    margin-top: 15px;
+  }
+
+  .home_selectedPin .home_selectedpincontainer .textField {
+    width: 300px;
+  }
+
+  .home_selectedPin .input {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .home_selectedPin .home_selectedpincontainer .textField {
+    width: 250px;
+  }
+
+  .home_selectedPin .input {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .home__intro > h2 {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+
+  .home_selectedHeaders {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home_selectedHeaders .form-control {
+    min-width: 40px !important;
+    margin-top: 15px;
+  }
+
+  .home_selectedPin {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 10px;
+  }
+
+  .home_selectedPin .home_selectedpincontainer .textField {
+    width: 370px;
+  }
+
+  .home_selectedPin .input {
+    margin-top: 15px;
+    width: 410px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home {
+    max-width: 100%;
+  }
+
+  .home_selectedPin .home_selectedpincontainer .textField {
+    width: 280px;
+  }
+
+  .home_selectedPin .input {
+    width: 320px;
+  }
+
+  .MuiButtonBase-root {
+    font-size: 15px !important;
+  }
+}

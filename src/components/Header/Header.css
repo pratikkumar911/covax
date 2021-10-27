@@ -1,0 +1,13 @@
+.header{
+    background-color: #ca5e5e;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}

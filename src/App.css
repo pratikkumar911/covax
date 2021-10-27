@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+  overflow: scroll;
+  font-family: 'Montserrat', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background:var(--pBody);
+  color:var(--pText);
+  transition: all 0.25s linear;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p{
+  color:var(--pText);
 }
-
-.App-link {
-  color: #61dafb;
+h3 a{
+  color: var(--pText);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4{
+  color:var(--pText);
 }
+h1{
+  color:var(--pText);
+}
+::-webkit-scrollbar{
+  width:0px;
+  background: transparent;
+}
+.scrollbar-hidden::-webkit-scrollbar{
+  display: none;
+}
+.scrollbar-hidden{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+:root{
+  --pBody: #FAFAFA;
+  --pText: #000;
+  --btnColor: #363537;
+};
