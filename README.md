@@ -1,3 +1,4 @@
-![Screenshot (16)](https://user-images.githubusercontent.com/77845945/147739821-3c2b33d0-3ca6-4d57-9a93-e5119ca0394a.png)
+![Screenshot (18)](https://user-images.githubusercontent.com/77845945/147767998-0e178565-5745-4a33-9e50-0eee53d1eadd.png)
+
 
 Working Demo - https://co-vax-savelives.netlify.app/
